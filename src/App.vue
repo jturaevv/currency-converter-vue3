@@ -15,11 +15,3 @@ const layout = computed(() => {
 <template>
   <component :is="layout" />
 </template>
-
-<style>
-
-body {
-  background: #000;
-}
-
-</style>
